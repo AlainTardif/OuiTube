@@ -26,3 +26,16 @@ header .header-top-right i:hover {
 .logo img{
   width: 220px;
 }
+.logo img:nth-child(2){
+  display: none;
+  width: 80px;
+}
+
+@media screen and (max-width: 650px) {
+  .logo img:nth-child(1){
+  display: none;
+  }
+  .logo img:nth-child(2){
+  display: block;
+}
+}
