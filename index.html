@@ -24,7 +24,7 @@
     <header>
       <div class="header-top box flex">
         <div class="header-top-left flex-1 flex flex-center-v">
-          <div class="header-icon">
+          <div class="header-icon" id="collapse">
             <i class="fas fa-bars"></i>
           </div>
           <a href="#">
@@ -48,7 +48,7 @@
           ></a>
         </div>
       </div>
-      <nav class="header-left">
+      <nav class="header-left fixed box" id="menu">
         <ul>
           <li><a href="#">Accueil</a></li>
           <li><a href="#">Bibliothèque</a></li>
@@ -59,9 +59,32 @@
         </ul>
       </nav>
     </header>
-    <div class="container-home">CONTAINER-HOME</div>
+    <div class="container-home-xl">
+      <div class="library-item flex flex-column">
+        <div class="library-video-poster">
+          <img src="/assets/images/poster/1.jpg" alt="Poster video">
+        </div>
+        <div class="library-video-meta flex flex-center-v gap-5">
+          <div class="profile-picture">
+            <img src="/assets/images/profil/alain.jpg" alt="">
+          </div>
+          <div class="video-meta">
+            <div class="video-title">Clonez le réseau social Facebook en partant de zéro</div>
+            <div class="owner-video-fullname">Web Design</div>
+            <div class="video-meta-data flex">
+              <div class="video-meta-views">
+                542 vues
+              </div>
+              <div class="video-meta-time">
+                il y a 21 heures
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer>FOOTER</footer>
 
-    <script src="js/index.js"></script>
+    <script src="/assets/js/script.js"></script>
   </body>
 </html>
